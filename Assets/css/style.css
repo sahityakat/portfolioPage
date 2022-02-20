@@ -1,0 +1,199 @@
+body {
+    background-color: #dba8dd3a;
+    box-sizing: border-box;
+}
+
+header {
+    padding: 25px;
+    margin:25px;
+    margin-bottom: 0px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #0c0c0cf6;
+    color: #6bd1eb;
+}
+
+header nav {
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-top: 15px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+
+header nav a {
+    text-decoration: underline;
+    padding: 10px;
+    color: #6bd1eb;
+    margin-bottom: 10px;
+}
+
+/* header nav ul {
+    list-style-type:none;
+}
+
+header nav ul li {
+    display: inline-block;
+    text-decoration: underline;
+    margin-left: 25px;
+} 
+
+a {
+    color: #6bd1eb;
+    text-decoration: none;
+    margin-bottom: 10px;
+} */
+
+main {
+    display:flex;
+    flex-direction: column;
+    margin:25px;
+    margin-top:0px;
+    flex-wrap: wrap;
+}
+
+.subtitle {
+    display:flex;
+    flex-wrap: wrap;
+    justify-content:right;
+    height: 200px;
+    margin-bottom: 25px;
+    background-image: url("../images/subtitle-image.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.subtitle h2 {
+    margin:10px;
+    padding-right: 25px;
+    padding-top: 80px;
+    padding-bottom: 40px;
+    font-size: 25px;
+} 
+
+.aboutMe {
+    display:flex;
+    flex-wrap: wrap;
+    height: 200px;
+    margin: 10px;
+}
+
+.titleSection {
+    font-size: 20px;
+    border-right: 3px solid blue;
+    padding-right: 10px;
+    text-align: right;
+    width: 20%;
+}
+
+.aboutMeContent {
+    font-size: 20px;
+    text-align: left;
+    margin-left: 10px;
+    padding-left: 50px;
+    width: 70%;
+    font-family:'Times New Roman', Times, serif;
+}
+
+.contactMe {
+    display:flex;
+    flex-wrap: wrap;
+    height: 100px;
+    margin:10px;
+}
+
+.contactInfo {
+    margin-left: 10px;
+    width: 70%;
+    text-decoration: underline;
+    padding: 10px;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.contactInfo nav ul {
+    display:flex;
+    padding: 20px;
+}
+
+.contactInfo nav li {
+    list-style-type: none;
+    padding: 20px;
+}
+
+.work {
+    display:flex;
+    flex-wrap: wrap;
+    height: 500px;
+    margin:10px;
+}
+
+/* .workInfo {
+    margin-left: 10px;
+    width: 70%;
+    padding: 10px;
+    flex-wrap: wrap;
+    border-color:3px brown;
+    flex-direction: column;
+} */
+
+ .card {
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+  }
+  .card img {
+    display:flex;
+    flex-wrap: wrap;
+    width: 100%;
+    min-width: 400px;
+  }
+/*
+  .infocard {
+    flex: 2;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: column;
+  } */
+/*
+
+
+.contactInfo ul {
+    list-style-type:none;
+}
+
+.contactInfo ul li {
+    display: inline-block;
+    text-decoration: underline;
+    margin-left: 25px;
+    padding-top: 30px;
+    font-size: 30px;
+    font-family:'Times New Roman', Times, serif;
+} */
+
+/*
+.sectionHeaders {
+    border-right: 6px solid blue;
+    float:left;
+    font-size: 30px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.aboutMeSection {
+    height: 200px;
+}
+
+.contactSection ul {
+    list-style-type:none;
+}
+
+.contactSection ul li {
+    display: inline-block;
+    text-decoration: underline;
+    margin-left: 25px;
+    padding-top: 30px;
+} */
