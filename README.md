@@ -35,7 +35,7 @@ THEN I am presented with a responsive layout that adapts to my viewport
 
 ## Image
 
-![Screenshot of how the Website looks](/assets/images/Portfolio-Screenshot.png)
+![Screenshot of how the Website looks](/Assets/images/Portfolio-Screenshot.png)
 
 ## Link to deployed application
 
